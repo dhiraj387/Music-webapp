@@ -10,16 +10,16 @@ let masterSongName = document.getElementById('masterSongName');
 let songItems = Array.from(document.getElementsByClassName('songItem'));
 
 let songs = [
-    {songName: "Warriyo - Mortals [NCS Release]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
-    {songName: "Cielo - Huma-Huma", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
-    {songName: "DEAF KEV - Invincible [NCS Release]-320k", filePath: "songs/3.mp3", coverPath: "covers/3.jpg"},
-    {songName: "Different Heaven & EH!DE - My Heart [NCS Release]", filePath: "songs/4.mp3", coverPath: "covers/4.jpg"},
-    {songName: "Janji-Heroes-Tonight-feat-Johnning-NCS-Release", filePath: "songs/5.mp3", coverPath: "covers/5.jpg"},
-    {songName: "Rabba - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/6.jpg"},
-    {songName: "Sakhiyaan - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/7.jpg"},
-    {songName: "Bhula Dena - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/8.jpg"},
-    {songName: "Tumhari Kasam - Salam-e-Ishq", filePath: "songs/2.mp3", coverPath: "covers/9.jpg"},
-    {songName: "Na Jaana - Salam-e-Ishq", filePath: "songs/4.mp3", coverPath: "covers/10.jpg"},
+     {songName: "Darshana - 8D song [Hridayam]", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
+    {songName: "Shape of You x Naina", filePath: "songs/2.mp3", coverPath: "covers/2.png"},
+    {songName: "Libianca - People", filePath: "songs/3.mp3", coverPath: "covers/3.png"},
+    {songName: "DHAK DHAK  Aanchal Tyagi X Raga", filePath: "songs/4.mp3", coverPath: "covers/4.png"},
+    {songName: "Love Me Like You Do ", filePath: "songs/5.mp3", coverPath: "covers/5.png"},
+    {songName: "JANNAT | Farhan Khan ", filePath: "songs/2.mp3", coverPath: "covers/6.png"},
+    {songName: "JAWAB DE - Farhan Khan", filePath: "songs/2.mp3", coverPath: "covers/7.png"},
+    {songName: "TERE HO KE | King & BellaOfficials", filePath: "songs/2.mp3", coverPath: "covers/8.png"},
+    {songName: "Jaadugar | Paradox ", filePath: "songs/2.mp3", coverPath: "covers/9.png"},
+    {songName: "Ek Tarfa Reprise - Darshan Raval", filePath: "songs/4.mp3", coverPath: "covers/10.png"},
 ]
 
 songItems.forEach((element, i)=>{ 
